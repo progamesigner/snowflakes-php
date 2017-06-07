@@ -1,0 +1,25 @@
+{
+    "name": "progamesigner/snowflakes",
+    "description": "A decentralized, k-ordered UUID generator in PHP",
+    "type": "library",
+    "keywords": [
+        "snowflake",
+        "snowflakes",
+        "UUID"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yang Sheng Han",
+            "email": "progamesigner@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProGameSigner\\Snowflakes\\": "src/"
+        }
+    }
+}
