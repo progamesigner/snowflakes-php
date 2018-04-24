@@ -21,5 +21,12 @@
         "psr-4": {
             "ProGameSigner\\Snowflakes\\": "src/"
         }
+    },
+    "extra" : {
+        "laravel": {
+            "providers": [
+                "ProGameSigner\\Snowflakes\\SnowflakesServiceProvider"
+            ]
+        }
     }
 }
