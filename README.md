@@ -13,7 +13,7 @@ The project is inspired by [Twitter's Snowflake](https://github.com/twitter/snow
 ### Installation
 
 ```sh
-composer require --save progamesigner/snowflakes
+composer require progamesigner/snowflakes
 ```
 
 ### Usage
